@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ↓ =====google fonts でフォントのリンクを設定===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <!-- =============================================== -->
+    <link rel="stylesheet" href="index.css">
+    <title>FND-19 基礎</title>
+</head>
+
+<body>
+
+    <div class="hero">
+        <strong>FND-19</strong>
+        <!-- autoplay→勝手に再生　loop→繰り返す muted→音無し　preload →HTMLファイルが読み込まれたらすぐビデオを読み込む-->
+        <video autoplay loop muted preload>
+            <source src="video/hero.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <section class="section">
+        <div class="table-of-contents">
+            <h1 class="table-of-contents-headline">目次</h1>
+            <ul class="table-of-contents-imtes">
+                <li>自己紹介</li>
+                <li>開発したゲームアプリ</li>
+                <li>教育を通して</li>
+            </ul>
+        </div>
+    </section>
+
+    
+
+    <section class="section">
+        <h1 class="section-headline">自己紹介</h1>
+        <div class="section-unity">
+            <div class="sction-item">
+                <p class="section-item">名前:</p>
+                <p class="section-item">年齢:</p>
+                <p class="section-item">所属:</p>
+                <p class="section-item">業務内容:</p>
+                <p class="section-item">趣味:</p>
+                <p class="section-item">最近の思い出:</p>
+            </div>
+            <div class="section-item-description">
+                <p class="section-description">後藤亮太</p>
+                <p class="section-description">22歳</p>
+                <p class="section-description">車両技術開発部 強度試験課</p>
+                <p class="section-description">車両足回りの強度評価</p>
+                <p class="section-description">キャンプ、登山、サッカー</p>
+                <p class="section-description">岐阜バンジーー！！215m</p>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <h1 class="section-headline">
+            ポーカーゲームアプリ！
+        </h1>
+        <div class="poker-style">
+
+            <h2 class="poker-rules-headline">ルール</h2>
+            <ul class="grid">
+                <li class="grid-item first-step">
+                    <dl class="feature">
+                        <dt class="feature-headline">1.手札を5枚引く</dt>
+                        <dd class="feature-img">
+                            <img src="img/first.png" width="350" height="180"
+                                alt="About image">
+                        </dd>
+                    </dl>
+                </li>
+                <li class="grid-item secound-step">
+                    <dl class="feature">
+                        <dt class="feature-headline">2.任意のカードを交換する</dt>
+                        <dd class="feature-img">
+                            <img src="img/secound.png" a width="350" height="180"
+                                lt="About image">
+                        </dd>
+                    </dl>
+                </li>
+                <li class="grid-item third-step">
+                    <dl class="feature">
+                        <dt class="feature-headline">3.揃った5枚のカードを判定する</dt>
+                        <dd class="feature-img">
+                            <img src="img/thrid.png" width="350" height="180" alt="About image"
+                                alt="Strong Responsibility">
+                        </dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <div class="poker-btn poker-text">
+            <h1 class="btn-text">ポーカーゲームはコチラ↓↓</h1>
+        </div>
+        <div class="poker-btn">
+            <a href="poker.html" class="btn btn--yellow btn--cubic" style="text-decoration: none;">Game Start!!</a>
+        </div>
+
+        <div class="porker-style reason-hardship">
+            <div class="reason">
+                <h1 class="reason-hardship-headline">選んだ理由</h1>
+                <ul class="reason-imtes">
+                    <li>トランプゲームを開発する際、カード情報のデータの受け渡しが<br>
+                        今回習った部分とマッチしていると感じた。
+                    </li>
+                    <li>イメージがしやすく簡易的なものならすぐに作れると思った。</li>
+
+                </ul>
+            </div>
+            <div class="hardship">
+                <h1 class="reason-hardship-headline">苦労したこと</h1>
+                <div class="hardship-description">
+                    <img src="img/joker0.png" class="hardship-description-img" width="100" height="150">
+                    <p>←こいつ。。。<br>
+                        普通のカード処理とは別でどのカードにも代用できるジョーカーは
+                        本当にジョーカーでした。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="future-style">
+            <h1 class="future-headline">今後実装したい機能</h1>
+            <div class="future-box">
+                <p>・ローカルサーバーを立てて複数人で対戦</p>
+                <p>・pointを実装してベットできるように</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h1 class="section-headline">教育を通して</h1>
+        <div class="finish-box">
+            <div class="finish-box-body">
+                <p>・心理的安全性、開発手法。<br>
+                    ・19期の皆さんと過ごした20日間
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div id="footer">
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
