@@ -1,0 +1,75 @@
+body{
+    background-image:url(img/background_green.jpg);
+}
+.speace{
+    width: 200px;
+    height: 100px;
+}
+.text{
+    font-size: 50px;
+    color: #fff;
+    font-weight: bold;
+}
+#head{
+    text-align: center;
+    height: 100px;
+    width: auto;
+    font-size: 25px;
+}
+/* #start-btn{
+    width: 200px;
+    height: 50px;
+} */
+.card{
+    width: 200px;
+    height: 300px;
+    margin-left:10px;
+    margin-right:10px;
+}
+#cards{
+    text-align: center;
+    padding: 0px;
+    
+    
+}
+
+#cards-info{
+    display: none;
+    text-align: center;
+}
+
+#cards-boos{
+    display: flex;
+    justify-content: center;
+}
+.card-boo{
+    width: 200px;
+    height: 50px;
+    margin-left:10px;
+    margin-right:10px;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    
+}
+button.btn--orange {
+    color: #fff;
+    background-color: #eb6100;
+    border-bottom: 5px solid #b84c00;
+  }
+  button.btn--orange:hover {
+    margin-top: 3px;
+    color: #fff;
+    background: #f56500;
+    border-bottom: 2px solid #b84c00;
+  }
+  button.btn--shadow {
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  }
